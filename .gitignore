@@ -1,0 +1,13 @@
+# Live data: never commit the database or uploaded photos
+/data/*
+!/data/.htaccess
+!/data/index.html
+/uploads/*
+!/uploads/.htaccess
+!/uploads/index.html
+
+*.db
+*.sqlite
+*.log
+.DS_Store
+Thumbs.db
